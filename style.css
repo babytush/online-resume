@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: blanchedalmond;
+    margin-bottom: 30px;
+}
+
+
+.header{
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.header img{
+    width: 150px;
+    height: 70px;
+}
+.navv{
+    display: flex;
+    gap: 50px;
+    font-size: x-large;
+    color: green;
+    
+}
+
+.navv a:hover{
+    color: blue;
+    font-size: 30px;
+
+    
+}
+.navv a{
+    color: red;
+}
+.pic img{
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pic h2{
+    color: blue;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.pic p{
+    font-size: 20px;
+}
+
+.html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+
+}
+.html img{
+    border-radius: 30%;
+}
+footer{
+    margin: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 40px;
+}
+.down{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.projects h3{
+    margin: 20px;
+    color: brown;
+    text-transform: uppercase;
+}
+.pep a{
+    display: flex;
+    flex-direction: column;
+    color: green;
+
+}
+.pep{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 100px;
+}
